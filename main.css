@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header {
+    background-color: rgb(255, 228, 196); /* cor de fundo*/
+    padding: 16px 0;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    text-decoration: none;
+}
+
+.container {
+    /* width: 1366px; */
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 32%;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+.articles article time {
+    font-style: oblique;
+}
+
+.articles article a { 
+    background-color: rgb(200, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article a,
+.articles article p { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: rgb(0, 150, 0);
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#entertainment {
+    background-color: rgba(195, 1, 195, 0.1);
+}
+
+#entertainment .articles article a {
+    background-color: rgba(195, 0, 195, 0.5);
+}
+
+#tech {
+    background-color: rgba(0, 0, 195, 0.1);
+}
+
+#tech .articles article a {
+    background-color: rgba(0, 0, 195, 0.5);
+}
